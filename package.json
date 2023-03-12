@@ -1,7 +1,14 @@
 {
+  "name": "airbnb-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
+    "dev":"nodemon index.js",
+    "build":"npm i",
     "start": "node index.js"
   },
+  "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
